@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Oluşturma</title>
+    <link rel="stylesheet" href="./new_form.css">
+</head>
+<body>
+    <!-- başlık -->
+    <header>
+        <h1>Kimlik Kartı</h1>
+    </header>
+   <form action="">
+    <table>
+        <tr>
+            <td class="label"><label for="name">Adı Soyadı</label></td>
+            <td><input type="text" id="name"></td>
+        </tr>
+        <tr>
+            <td class="label"><label for="userName">Kullanıcı Adı</label></td>
+            <td><input type="text" id="userName" required></td>
+        </tr>
+        <tr>
+            <td class="label"><label for="email">E mail</label></td>
+            <td><input type="email" id="email" required></td>
+        </tr>
+        <tr>
+            <td class="label"><label for="mail">E maili Gizle</label></td>
+            <td><input type="email" id="mail" required></td>
+        </tr> <tr>
+            <td class="label"><label for="sifre">Şifre</label></td>
+            <td><input type="password" id="sifre" required></td>
+        </tr>
+        <tr>
+            <td class="label"><label for="newsifre">Şifre Tekrar</label></td>
+            <td><input type="password" id="newsifre"></td>
+        </tr>
+        <tr>
+            <td><label for="">Cinsiyet</label></td>
+            <td  class="label1"><input class="input" type="radio" id="gender1" name="gender">Kadın<input class="input" type="radio" id="gender2" name="gender">Erkek</td>
+        </tr>
+        <tr>
+            <td class="label"><label for="date">Doğum Tarihi</label></td>
+            <td  class="label1"><input type="date" id="date" required></td>
+        </tr>
+        <td></td>
+        <td class="label1"><input type="button" value="Kaydet"></td>
+        
+    </table>
+   </form>
+
+</body>
+</html>
